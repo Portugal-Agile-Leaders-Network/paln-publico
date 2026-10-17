@@ -1,0 +1,73 @@
+---
+# Estilos personalizados da PALN — carregados por cima do tema
+---
+
+// ── Sidebar: mais estreita ─────────────────────────────────────────────
+// (o tema usa 264px por defeito; 220px dá mais espaço ao conteúdo)
+.site-nav {
+  width: 220px;
+}
+
+.main-content-wrap {
+  padding-left: 220px;
+}
+
+.side-bar {
+  width: 220px;
+}
+
+@media (min-width: 66.5em) {
+  .side-bar {
+    width: 220px;
+  }
+  .main-content-wrap {
+    padding-left: 220px;
+  }
+  .site-header {
+    width: calc(100% - 220px);
+  }
+  .search-input-wrap {
+    width: calc(100% - 220px);
+  }
+}
+
+// ── Tipografia ──────────────────────────────────────────────────────────
+// Corpo: Inter (sans moderna e legível); títulos: Fraunces (serifada com carácter)
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+h1, .h1 {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h2, .h2, h3, .h3 {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+// Navegação lateral mais compacta
+.site-nav .nav-list-link {
+  font-size: 14px;
+}
+
+// Tabela e código mantêm legibilidade
+code, pre {
+  font-family: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.85em;
+}
+
+// Cor de destaque da marca (roxo do logo)
+.main-content a {
+  color: #6c4bd8;
+}
+
+.site-nav .nav-list-link.active {
+  color: #6c4bd8;
+  font-weight: 600;
+}

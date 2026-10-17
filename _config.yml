@@ -27,5 +27,8 @@ exclude:
   - README.md
   - vendor
 
+# Fontes via Google Fonts
+heading_anchors: true
+
 kramdown:
   input: GFM
