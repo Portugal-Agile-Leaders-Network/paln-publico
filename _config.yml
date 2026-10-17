@@ -21,15 +21,6 @@ collections:
   eventos:
     output: true
 
-just_the_docs:
-  collections:
-    regulamento:
-      name: Regulamento
-    facilitacao:
-      name: Facilitação
-    eventos:
-      name: Eventos
-
 exclude:
   - AGENTS.md
   - docs/
