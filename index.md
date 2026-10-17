@@ -6,8 +6,6 @@ nav_order: 1
 
 # Portugal Agile Leaders Network
 
-![Logo Portugal Agile Leaders Network](imagens/logo-200.jpg)
-
 > A comunidade de prática dos líderes de transformação ágil das grandes empresas a operar em Portugal.
 
 ## Quem somos
