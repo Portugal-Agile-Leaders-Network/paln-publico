@@ -62,7 +62,7 @@ Cada empresa-membro compromete-se a:
 
 **5.4. Decisões.** Por consenso entre os representantes das empresas-membro. Na ausência de consenso, a proposta é adiada para o encontro seguinte.
 
-**5.5. Custos.** Sem quotas. Cada empresa suporta o custo do encontro que hospeda. No ano 1, os custos partilhados mínimos (repositório, ferramenta de rede) são cobertos pela empresa promotora.
+**5.5. Custos.** Sem quotas. Cada empresa suporta o custo do encontro que hospeda.
 
 ---
 
