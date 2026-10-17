@@ -11,7 +11,7 @@ plugins:
 url: https://portugal-agile-leaders-network.github.io
 baseurl: /paln-publico
 
-logo: /paln-publico/imagens/logo-200.jpg
+logo: imagens/logo-200.jpg
 
 # Paleta personalizada PALN
 color_scheme: paln
