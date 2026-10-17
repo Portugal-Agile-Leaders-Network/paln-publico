@@ -5,15 +5,15 @@ nav_order: 2
 
 # Regulamento Inicial — Portugal Agile Leaders Network
 
-**Versão:** 1.0 (para aprovação no encontro fundacional) · **Outubro 2026**
+**Versão:** 0.1 (para aprovação) · **Outubro 2026**
 
 ---
 
 ## Artigo 1 — Natureza e Propósito
 
-A **Portugal Agile Leaders Network (PALN)** é uma comunidade de prática fechada, sem personalidade jurídica, que reúne representantes de grandes empresas a operar em Portugal com responsabilidade por transformações ágeis em curso ou planeadas.
+A **Portugal Agile Leaders Network (PALN)** é uma comunidade de prática fechada, sem personalidade jurídica, que reúne líderes de grandes empresas a operar em Portugal com responsabilidade por transformações ágeis em curso.
 
-**Objetivo:** criar um fórum de confiança onde os membros partilham experiências reais — sucessos e fracassos — elevando a maturidade da agilidade empresarial em Portugal.
+**Objetivo:** criar um fórum de confiança onde os membros partilham experiências reais, sucessos e fracassos, elevando a maturidade da agilidade empresarial em Portugal.
 
 A PALN não é associação profissional, órgão de certificação, grupo de venda nem substituto de eventos públicos.
 
@@ -21,15 +21,15 @@ A PALN não é associação profissional, órgão de certificação, grupo de ve
 
 ## Artigo 2 — Membros
 
-**2.1. Empresas-membro.** Podem aderir grandes empresas (≥ 500 colaboradores ou dimensão equivalente) com transformação ágil em curso ou formalmente planeada e patrocínio executivo. Máximo de **20 empresas** na fase inicial.
+**2.1. Natureza individual.** Os membros da PALN são **pessoas**. Adere quem tem responsabilidade direta por uma transformação ágil **em curso** em grandes empresas (≥ 1000 colaboradores ou dimensão equivalente) a operar em Portugal. O vínculo à comunidade é da pessoa: se um membro mudar de organização, a comunidade decide, caso a caso, se permanece.
 
-**2.2. Representantes.** Cada empresa designa **2 representantes** com mandato formal para partilhar e aplicar aprendizagens. Os representantes podem mudar; o vínculo é da empresa.
+**2.2. Limite por empresa.** Cada empresa pode ter, no máximo, **2 membros** na comunidade — como salvaguarda de diversidade, não como direito de representação formal. Máximo de **20 empresas representadas**.
 
-**2.3. Diversidade.** Nenhum setor deve exceder ~30% dos membros. Consultoras só podem ser **membros convidados** (sem voto), num máximo de 2.
+**2.3. Diversidade.** Nenhum setor deve exceder ~30% dos membros. Profissionais de consultoras só podem ser **membros convidados** (sem voto), num máximo de 2.
 
-**2.4. Admissão.** Por convite, aprovada por consenso das empresas-membro existentes.
+**2.4. Admissão.** Por convite, dirigido à pessoa, proposto por um membro e aprovado por consenso dos membros existentes.
 
-**2.5. Saída.** Qualquer empresa pode sair a qualquer momento. A permanência depende do cumprimento dos compromissos do Artigo 4.
+**2.5. Saída.** Qualquer membro pode sair a qualquer momento. A permanência depende do cumprimento dos compromissos do Artigo 3.
 
 ---
 
