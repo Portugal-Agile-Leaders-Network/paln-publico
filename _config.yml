@@ -2,7 +2,11 @@ title: Portugal Agile Leaders Network
 description: >-
   Comunidade de prática dos líderes de transformação ágil das grandes
   empresas a operar em Portugal.
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 url: https://portugal-agile-leaders-network.github.io
 baseurl: /paln-publico
