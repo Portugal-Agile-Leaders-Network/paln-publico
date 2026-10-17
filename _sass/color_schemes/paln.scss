@@ -12,8 +12,9 @@ $search-result-preview-color: #edf3fa;
 
 // Logo maior no topo da sidebar (tema limita a ~36px de altura)
 .site-header {
+  height: auto !important;
+  max-height: none !important;
   min-height: 7.5rem;
-  max-height: none;
 }
 
 .site-title {
@@ -22,6 +23,6 @@ $search-result-preview-color: #edf3fa;
 }
 
 .site-logo {
-  height: 6rem;
+  height: 6rem !important;
   background-position: center;
 }
