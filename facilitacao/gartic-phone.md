@@ -1,3 +1,9 @@
+---
+title: Gartic Phone (prompts de desenho)
+parent: Biblioteca de Facilitação
+nav_order: 1
+---
+
 # Gartic Phone (prompts de desenho)
 
 - **Tipo:** energizer

@@ -1,3 +1,10 @@
+---
+title: Biblioteca de Facilitação
+parent: Facilitação
+nav_order: 1
+has_children: true
+---
+
 # Biblioteca de Técnicas de Facilitação e Icebreakers
 
 > Biblioteca colaborativa da Portugal Agile Leaders Network: técnicas de facilitação, icebreakers e energizers testados nos nossos encontros. Cada entrada descreve o que é, quando usar e como correr — para qualquer membro poder replicar.

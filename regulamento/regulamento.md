@@ -1,3 +1,9 @@
+---
+title: Regulamento
+parent: Regulamento
+nav_order: 1
+---
+
 # Regulamento Inicial — Portugal Agile Leaders Network
 
 **Versão:** 1.0 (para aprovação no encontro fundacional) · **Outubro 2026**

@@ -13,44 +13,31 @@ baseurl: /paln-publico
 
 logo: /paln-publico/imagens/logo-200.jpg
 
-# Navegação lateral: uma secção por pasta
 collections:
   regulamento:
-    name: Regulamento
     output: true
   facilitacao:
-    name: Facilitação
     output: true
   eventos:
-    name: Eventos
     output: true
 
 just_the_docs:
   collections:
     regulamento:
       name: Regulamento
+      nav_fold: true
     facilitacao:
       name: Facilitação
+      nav_fold: true
     eventos:
       name: Eventos
-
-# Pastas e ficheiros a incluir no site (Jekyll ignora alguns por defeito)
-include:
-  - README.md
+      nav_fold: true
 
 exclude:
   - AGENTS.md
   - docs/
-  - LICENSE
+  - README.md
+  - vendor
 
 kramdown:
   input: GFM
-
-# Permitir HTML inline simples nas páginas (ex.: redimensionar logo)
-markdown_ext: "markdown,mkdown,mkdn,md"
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
