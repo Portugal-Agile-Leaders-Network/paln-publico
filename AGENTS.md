@@ -31,6 +31,8 @@ Objetivo: servir de plataforma de colaboração entre membros da comunidade, usa
 /
 ├── AGENTS.md                  # Este ficheiro
 ├── README.md                  # Página inicial do repositório (apresentação da comunidade)
+├── imagens/                   # Logótipo e imagens institucionais da comunidade
+│   └── logo.jpg
 ├── regulamento/               # Regulamento da comunidade
 │   └── regulamento.md
 ├── eventos/
@@ -39,6 +41,11 @@ Objetivo: servir de plataforma de colaboração entre membros da comunidade, usa
 │   └── 2026-10-16-evento-03/  # 3º evento, realizado a 16 de Outubro de 2026
 └── (futuro) site/ ou docs/    # Página pública da comunidade, quando existir
 ```
+
+## Identidade visual
+
+- O logótipo da comunidade está em `imagens/logo.jpg` no repositório público (mesma imagem usada como avatar da organização no GitHub).
+- Para o usar num Markdown, referenciar com caminho relativo (ex.: `![Logo](../../imagens/logo.jpg)` desde `eventos/.../agenda.md`).
 
 ### Convenção de nomes de eventos
 
