@@ -36,6 +36,9 @@ Objetivo: servir de plataforma de colaboração entre membros da comunidade, usa
 │   └── logo-200.jpg
 ├── regulamento/               # Regulamento da comunidade
 │   └── regulamento.md
+├── facilitacao/               # Biblioteca de técnicas de facilitação e icebreakers
+│   ├── README.md              # Índice e template de entrada
+│   └── <nome-da-tecnica>.md   # Um ficheiro por técnica (ex.: gartic-phone.md)
 ├── eventos/
 │   ├── 2026-07-xx-evento-01/  # Um directório por evento (exemplos de padrão)
 │   ├── 2026-09-xx-evento-02/
