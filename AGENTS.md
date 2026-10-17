@@ -76,6 +76,7 @@ eventos/2026-10-16-evento-03/
 - **Ficheiros binários grandes** (PPTs, PDFs, fotografias): colocar nas pastas próprias e, se o repositório crescer, migrar para **Git LFS**. Evitar vídeos grandes no Git — usar links externos (YouTube, Drive) no sumário.
 - **Nomes de ficheiros**: minúsculas, sem acentos, palavras separadas por hífenes (ex.: `abertura-e-boas-vindas.pptx`).
 - **Nomes de fotografias**: `YYYY-MM-DD-evento-NN-HHMMSS.jpg` (data ISO do evento + hora da fotografia; a hora vem do nome original da câmara/telemóvel). Ex.: `2026-10-16-evento-03-100922.jpg`. Se duas fotografias tiverem a mesma hora, acrescentar sufixo `-2`, `-3`, etc. Esta convenção mantém as fotografias ordenadas cronologicamente e evita nomes genéricos como `IMG_1234.jpg`.
+- **Fotografias em Markdown**: para inserir fotografias em documentos (sumários, etc.), usar uma variante reduzida de 600px (padrão: `nome-600.jpg`) para não pesar na leitura; o original fica na pasta para quem quiser a resolução total.
 - **Apresentações**: `<nome-descritivo-da-sessao>.pptx` (ex.: `2035-rehearsing-our-ai-future.pptx`).
 - **Commits**: mensagens curtas e descritivas, em português (ex.: `Adiciona agenda do evento 3`).
 
