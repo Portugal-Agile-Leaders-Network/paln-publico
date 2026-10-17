@@ -25,9 +25,9 @@ A adesão é da empresa, não da pessoa: cada organização-membro designa dois 
 
 ## Neste site
 
-- [Regulamento da comunidade](regulamento/regulamento.md) — regras, compromissos e confidencialidade
-- [Biblioteca de facilitação](facilitacao/README.md) — técnicas e icebreakers testados nos nossos encontros
-- [Eventos](eventos/2026-10-16-evento-03/agenda.md) — agendas e materiais públicos dos encontros
+- [Regulamento da comunidade](regulamento/regulamento.html) — regras, compromissos e confidencialidade
+- [Biblioteca de facilitação](facilitacao/index.html) — técnicas e icebreakers testados nos nossos encontros
+- [Eventos](eventos/2026-10-16-evento-03/agenda.html) — agendas e materiais públicos dos encontros
 
 ## Participar
 

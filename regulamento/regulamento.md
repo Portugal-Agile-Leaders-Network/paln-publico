@@ -1,7 +1,6 @@
 ---
-title: Regulamento Inicial
-parent: Regulamento
-nav_order: 1
+title: Regulamento
+nav_order: 2
 ---
 
 # Regulamento Inicial — Portugal Agile Leaders Network
