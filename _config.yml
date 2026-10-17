@@ -1,0 +1,52 @@
+title: Portugal Agile Leaders Network
+description: >-
+  Comunidade de prática dos líderes de transformação ágil das grandes
+  empresas a operar em Portugal.
+theme: just-the-docs
+
+url: https://portugal-agile-leaders-network.github.io
+baseurl: /paln-publico
+
+logo: /paln-publico/imagens/logo-200.jpg
+
+# Navegação lateral: uma secção por pasta
+collections:
+  regulamento:
+    name: Regulamento
+    output: true
+  facilitacao:
+    name: Facilitação
+    output: true
+  eventos:
+    name: Eventos
+    output: true
+
+just_the_docs:
+  collections:
+    regulamento:
+      name: Regulamento
+    facilitacao:
+      name: Facilitação
+    eventos:
+      name: Eventos
+
+# Pastas e ficheiros a incluir no site (Jekyll ignora alguns por defeito)
+include:
+  - README.md
+
+exclude:
+  - AGENTS.md
+  - docs/
+  - LICENSE
+
+kramdown:
+  input: GFM
+
+# Permitir HTML inline simples nas páginas (ex.: redimensionar logo)
+markdown_ext: "markdown,mkdown,mkdn,md"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
