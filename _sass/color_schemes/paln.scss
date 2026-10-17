@@ -9,3 +9,19 @@ $link-color: #1b4f8a;
 $btn-primary-color: #1b4f8a;
 $base-button-color: #2e7cc4;
 $search-result-preview-color: #edf3fa;
+
+// Logo maior no topo da sidebar (tema limita a ~36px de altura)
+.site-header {
+  min-height: 7.5rem;
+  max-height: none;
+}
+
+.site-title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.site-logo {
+  height: 6rem;
+  background-position: center;
+}
