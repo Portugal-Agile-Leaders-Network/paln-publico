@@ -1,6 +1,5 @@
 ---
-title: Regulamento
-parent: Regulamento
+title: Regulamento Inicial
 nav_order: 1
 ---
 

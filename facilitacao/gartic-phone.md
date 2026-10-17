@@ -5,7 +5,6 @@ nav_order: 1
 ---
 
 # Gartic Phone (prompts de desenho)
-
 - **Tipo:** energizer
 - **Duração:** 30–45 minutos
 - **Participantes:** 10–25, sem preparação prévia

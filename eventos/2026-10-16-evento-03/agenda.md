@@ -1,6 +1,5 @@
 ---
 title: 3.º Evento — 16 de Outubro de 2026
-parent: Eventos
 nav_order: 1
 ---
 

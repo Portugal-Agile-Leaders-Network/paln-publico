@@ -1,6 +1,5 @@
 ---
 title: Biblioteca de Facilitação
-parent: Facilitação
 nav_order: 1
 has_children: true
 ---
