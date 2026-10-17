@@ -4,9 +4,9 @@
 
 ## Quem somos
 
-A PALN é uma rede fechada que reúne os responsáveis por transformações ágeis em grandes organizações em Portugal. Inspirada em comunidades como a [DACH30](https://dach30.net), partilhamos experiências reais — sucessos e fracassos — para elevar a maturidade da agilidade empresarial no país.
+A PALN é uma rede fechada que reúne líderes com responsabilidade por transformações ágeis em grandes organizações em Portugal. Inspirada em comunidades como a [DACH30](https://dach30.net), partilhamos experiências reais — sucessos e fracassos — para elevar a maturidade da agilidade empresarial no país.
 
-A adesão é da empresa, não da pessoa: cada organização-membro designa dois representantes com mandato para partilhar e aplicar aprendizagens.
+Os membros são **indivíduos, convidados a título pessoal** — pessoas com responsabilidade direta por uma transformação ágil em curso. Cada empresa pode ter, no máximo, 2 membros, como salvaguarda de diversidade.
 
 ## O que fazemos
 
@@ -23,12 +23,9 @@ Materiais privados, quando partilhados, ficam apenas no repositório privado de 
 
 ## Participar
 
-A adesão é por convite, aprovada por consenso das empresas-membro, e pressupõe uma transformação ágil em curso ou planeada com patrocínio executivo. Se a sua organização quiser conhecer a comunidade, contacte qualquer membro ou facilitador.
+A adesão é por convite, dirigido à pessoa, proposto por um membro e aprovado por consenso dos membros. Adere quem tem responsabilidade direta por uma transformação ágil em curso em grande empresa a operar em Portugal. Se quer conhecer a comunidade, contacte qualquer membro ou facilitador.
 
 ## Saiba mais
 
-- [Regulamento da comunidade](regulamento/regulamento.md) (regras, compromissos e confidencialidade)
-- [Proposta de criação e contexto](docs/comunidades-de-referencia-contexto-para-a-paln.md) (inspirações e comunidades de referência)
-
----
-*© Portugal Agile Leaders Network — licenciado sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt).*
+- Regulamento da comunidade (regras, compromissos e confidencialidade)
+- Proposta de criação e contexto (inspirações e comunidades de referência)
