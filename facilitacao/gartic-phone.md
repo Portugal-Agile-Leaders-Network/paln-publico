@@ -12,6 +12,8 @@ Cada participante recebe (ou sorteia) um prompt surreal e absurdo — ex.: "Um a
 
 Na PALN, a versão usada foi simplificada: cada pessoa desenha o prompt que recebeu e depois partilha o resultado com o grupo — o valor está no riso partilhado, não na corrente.
 
+![Prompts escritos à mão para o energizer](imagens/gartic-phone-prompts.jpg)
+
 ## Quando usar
 
 - **Energizer pós-almoço**: quebra completamente a sonolência da tarde.
