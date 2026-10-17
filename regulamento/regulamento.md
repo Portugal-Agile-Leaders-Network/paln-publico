@@ -1,5 +1,6 @@
 ---
 title: Regulamento Inicial
+parent: Regulamento
 nav_order: 1
 ---
 

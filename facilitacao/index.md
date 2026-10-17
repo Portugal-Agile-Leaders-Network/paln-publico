@@ -1,7 +1,7 @@
 ---
-title: Biblioteca de Facilitação
-nav_order: 1
+title: Facilitação
 has_children: true
+nav_order: 3
 ---
 
 # Biblioteca de Técnicas de Facilitação e Icebreakers

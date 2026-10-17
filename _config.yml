@@ -25,13 +25,10 @@ just_the_docs:
   collections:
     regulamento:
       name: Regulamento
-      nav_fold: true
     facilitacao:
       name: Facilitação
-      nav_fold: true
     eventos:
       name: Eventos
-      nav_fold: true
 
 exclude:
   - AGENTS.md
