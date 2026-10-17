@@ -13,6 +13,9 @@ baseurl: /paln-publico
 
 logo: /paln-publico/imagens/logo-200.jpg
 
+# Paleta personalizada PALN
+color_scheme: paln
+
 collections:
   regulamento:
     output: true
