@@ -32,7 +32,8 @@ Objetivo: servir de plataforma de colaboração entre membros da comunidade, usa
 ├── AGENTS.md                  # Este ficheiro
 ├── README.md                  # Página inicial do repositório (apresentação da comunidade)
 ├── imagens/                   # Logótipo e imagens institucionais da comunidade
-│   └── logo.jpg
+│   ├── logo.jpg
+│   └── logo-200.jpg
 ├── regulamento/               # Regulamento da comunidade
 │   └── regulamento.md
 ├── eventos/
@@ -45,7 +46,9 @@ Objetivo: servir de plataforma de colaboração entre membros da comunidade, usa
 ## Identidade visual
 
 - O logótipo da comunidade está em `imagens/logo.jpg` no repositório público (mesma imagem usada como avatar da organização no GitHub).
-- Para o usar num Markdown, referenciar com caminho relativo (ex.: `![Logo](../../imagens/logo.jpg)` desde `eventos/.../agenda.md`).
+- Existe uma variante reduzida de 200px em `imagens/logo-200.jpg` para usar em cabeçalhos de documentos (agendas, sumários).
+- Para o usar num Markdown, referenciar com caminho relativo (ex.: `![Logo](../../imagens/logo-200.jpg)` desde `eventos/.../agenda.md`).
+- O Markdown puro não permite definir tamanho de imagem; em vez de HTML, criar variantes pré-redimensionadas (padrão de nome: `nome-NNN.jpg`, NNN = largura em px).
 
 ### Convenção de nomes de eventos
 
