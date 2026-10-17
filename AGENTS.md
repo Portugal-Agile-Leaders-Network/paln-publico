@@ -53,6 +53,17 @@ Objetivo: servir de plataforma de colaboração entre membros da comunidade, usa
 - Para o usar num Markdown, referenciar com caminho relativo (ex.: `![Logo](../../imagens/logo-200.jpg)` desde `eventos/.../agenda.md`).
 - O Markdown puro não permite definir tamanho de imagem; em vez de HTML, criar variantes pré-redimensionadas (padrão de nome: `nome-NNN.jpg`, NNN = largura em px).
 
+### Identidade visual do site (GitHub Pages)
+
+O site do repositório público usa o tema **Just the Docs** via `remote_theme`. As decisões gráficas já tomadas — respeitá-las; só alterar com pedido explícito do utilizador:
+
+- **Paleta**: definida em `_sass/color_schemes/paln.scss` (azul institucional: fundo `#f7fafc`, sidebar `#edf3fa`, links/títulos `#1b4f8a`, texto `#25313d`), ativada com `color_scheme: paln` no `_config.yml`.
+- **Fonte**: **Work Sans** (Google Fonts) para todo o site, carregada em `_includes/head_custom.html`. Não usar fontes serifadas nem alterar tamanhos sem pedido.
+- **Logo na sidebar**: via `logo:` no `_config.yml` (caminho relativo à raiz do repo, sem prefixar o baseurl — o tema acrescenta-o). A altura é controlada em `.site-logo`/`.site-header` no scheme (96px).
+- **Estrutura do menu**: páginas índice com `has_children: true` e `has_toc: false`; o Regulamento liga diretamente ao documento (sem página intermédia). Os nomes de ficheiros das páginas têm de se manter (ex.: `regulamento.md`).
+- **Como alterar estilo com segurança**: usar o mecanismo do tema (color scheme SCSS ou includes como `head_custom.html`); evitar CSS externo sobreposto — já causou conflitos. Se gerar CSS, usar `!important` quando sobrepor regras do tema (o `remote_theme` injeta as regras do tema depois das personalizadas).
+- **Validar sempre**: após alterações de estilo, confirmar no CSS compilado (`assets/css/just-the-docs-default.css` publicado) que as regras foram aplicadas.
+
 ### Convenção de nomes de eventos
 
 `eventos/YYYY-MM-DD-evento-NN/` — data do evento em formato ISO + número ordinal do evento.
