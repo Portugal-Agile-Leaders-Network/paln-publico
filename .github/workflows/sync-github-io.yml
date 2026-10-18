@@ -1,0 +1,49 @@
+# Sincroniza o conteúdo do paln-publico para o repositório
+# portugal-agile-leaders-network.github.io (raiz do site da organização).
+#
+# Requer um secret PALN_SYNC_TOKEN: PAT (fine-grained) com acesso
+# contents:read/write ao repositório portugal-agile-leaders-network.github.io.
+
+name: Sincronizar site da raiz (github.io)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-github-io
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout paln-publico
+        uses: actions/checkout@v4
+
+      - name: Checkout github.io
+        uses: actions/checkout@v4
+        with:
+          repository: Portugal-Agile-Leaders-Network/portugal-agile-leaders-network.github.io
+          token: ${{ secrets.PALN_SYNC_TOKEN }}
+          path: github-io
+
+      - name: Sincronizar conteúdo
+        run: ./sync-to-github-io.sh github-io
+
+      - name: Commit e push (se houver alterações)
+        working-directory: github-io
+        run: |
+          git config user.name "paln-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Sem alterações a sincronizar."
+          else
+            git commit -m "Sincroniza com paln-publico ($(git -C .. rev-parse --short HEAD))"
+            git push
+          fi
