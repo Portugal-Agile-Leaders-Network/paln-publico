@@ -6,8 +6,6 @@ nav_order: 1
 
 # 3.º Evento — 16 de Outubro de 2026
 
-![Logo Portugal Agile Leaders Network](../../imagens/logo-200.jpg)
-
 ## Local
 
 **Hiscox Portugal**
