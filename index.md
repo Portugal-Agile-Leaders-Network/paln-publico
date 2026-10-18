@@ -4,22 +4,23 @@ title: Início
 nav_order: 1
 ---
 
-# Portugal Agile Leaders Network
+# Portugal Agile Leaders Network (PALN)
 
 > A comunidade de prática dos líderes de transformação ágil das grandes empresas a operar em Portugal.
 
 ## Quem somos
 
-A PALN é uma rede fechada que reúne os responsáveis por transformações ágeis em grandes organizações em Portugal. Inspirada em comunidades como a [DACH30](https://dach30.net), partilhamos experiências reais — sucessos e fracassos — para elevar a maturidade da agilidade empresarial no país.
+A PALN é uma rede que reúne líderes com responsabilidade por transformações ágeis em grandes organizações em Portugal. Inspirada em comunidades como a [DACH30](https://dach30.net), partilhamos experiências reais, sucessos e fracassos, em ambiente seguro, para elevar a maturidade da agilidade empresarial nas nossas empresas.
 
-A adesão é da empresa, não da pessoa: cada organização-membro designa dois representantes com mandato para partilhar e aplicar aprendizagens.
+Os membros são **indivíduos, convidados a título pessoal**, pessoas com responsabilidade direta por uma transformação ágil em curso. Cada empresa pode ter, no máximo, em cada reunião, 2 membros, como salvaguarda de diversidade.
 
 ## O que fazemos
 
-- **4 encontros por ano**, de dia inteiro, acolhidos rotativamente pelas empresas-membro
-- **Manhã**: casos ou exercícios apresentados por duas empresas diferentes
-- **Tarde**: Open Space Technology (unconference) sobre os temas emergentes
+- **4 encontros por ano**, de dia inteiro, acolhidos rotativamente pelas organizações onde trabalhamos
+  - **Manhã**: casos ou exercícios apresentados por duas empresas diferentes
+  - **Tarde**: Open Space Technology (formato unconference) sobre os temas emergentes
 - **Um artefacto público por ano** que documenta o que aprendemos em conjunto
+
 
 ## Neste site
 
