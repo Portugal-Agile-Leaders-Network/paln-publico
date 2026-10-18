@@ -19,7 +19,7 @@ Piso 5
 | ----- | ------ | ------------- |
 | 9:30  | Chegada | Miguel Duarte |
 | 9:45  | Networking Icebreaker | Priscila Guimarães e Mariana Luciano |
-| 10:00 | 2035 Rehearsing Our AI Future | Nuno Silva Pereira e Ricardo Caldas |
+| 10:00 | [2035 Rehearsing Our AI Future](./2035-Rehearsing-Our-AI-Future.pdf) | Nuno Silva Pereira e Ricardo Caldas |
 | 12:15 | Almoço — Italy Caffe, Rua Duque de Ávila | |
 | 13:30 | Energizer | Priscila Guimarães e Mariana Luciano |
 | 14:30 | (Mini) Open Space Technology Sessions | Miguel Duarte |
