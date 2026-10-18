@@ -26,7 +26,7 @@ search:
 
 # Link para o repositório GitHub no menu
 nav_external_links:
-  - title: paln-publico no GitHub
+  - title: PALN no GitHub
     url: https://github.com/Portugal-Agile-Leaders-Network/paln-publico
     hide_icon: false
 
