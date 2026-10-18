@@ -11,7 +11,7 @@ Objetivo: servir de plataforma de colaboração entre membros da comunidade, usa
 - **Organização**: [Portugal-Agile-Leaders-Network](https://github.com/Portugal-Agile-Leaders-Network)
 - **`paln-publico`** (público) — apresentação da comunidade, regulamento, documentação de eventos destinada ao público. Site: https://portugal-agile-leaders-network.github.io/paln-publico/
 - **`paln-membros`** (privado) — materiais só de membros: fotografias, apresentações internas, sumários internos, base de participantes.
-- **`portugal-agile-leaders-network.github.io`** (público) — repositório especial do GitHub Pages que serve a **página inicial da organização** em https://portugal-agile-leaders-network.github.io/ (raiz do domínio). Página simples: logo, apresentação e links para o site de conteúdos. **Manter sincronizado** com o conteúdo atual do `paln-publico` quando a apresentação mudar (não é automático — são repos distintos).
+- **`portugal-agile-leaders-network.github.io`** (público) — repositório especial do GitHub Pages que serve o **site completo na raiz** em https://portugal-agile-leaders-network.github.io/ (mesmo conteúdo que o `paln-publico`, sem `baseurl`). **Sincronização automática**: o workflow `.github/workflows/sync-github-io.yml` corre a cada push para `main` no `paln-publico`, copia o conteúdo (via `sync-to-github-io.sh`, que remove o `baseurl` e ajusta o logo) e faz commit/push no `github.io`. Requer o secret `PALN_SYNC_TOKEN` (PAT fine-grained com Contents: read/write no repo `github.io`). Para sincronizar manualmente (ex.: testes locais): `./sync-to-github-io.sh <caminho-para-repo-github.io>`. Não editar diretamente o conteúdo do `github.io` — as alterações serão sobrescritas pela sincronização; editar sempre no `paln-publico`.
 
 ## Licença
 
