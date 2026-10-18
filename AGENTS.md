@@ -9,8 +9,9 @@ Objetivo: servir de plataforma de colaboração entre membros da comunidade, usa
 ## Organização no GitHub
 
 - **Organização**: [Portugal-Agile-Leaders-Network](https://github.com/Portugal-Agile-Leaders-Network)
-- **`paln-publico`** (público) — apresentação da comunidade, regulamento, documentação de eventos destinada ao público.
-- **`paln-membros`** (privado) — materiais só de membros: fotografias, apresentações internas, sumários internos.
+- **`paln-publico`** (público) — apresentação da comunidade, regulamento, documentação de eventos destinada ao público. Site: https://portugal-agile-leaders-network.github.io/paln-publico/
+- **`paln-membros`** (privado) — materiais só de membros: fotografias, apresentações internas, sumários internos, base de participantes.
+- **`portugal-agile-leaders-network.github.io`** (público) — repositório especial do GitHub Pages que serve a **página inicial da organização** em https://portugal-agile-leaders-network.github.io/ (raiz do domínio). Página simples: logo, apresentação e links para o site de conteúdos. **Manter sincronizado** com o conteúdo atual do `paln-publico` quando a apresentação mudar (não é automático — são repos distintos).
 
 ## Licença
 
@@ -57,12 +58,17 @@ Objetivo: servir de plataforma de colaboração entre membros da comunidade, usa
 
 O site do repositório público usa o tema **Just the Docs** via `remote_theme`. As decisões gráficas já tomadas — respeitá-las; só alterar com pedido explícito do utilizador:
 
-- **Paleta**: definida em `_sass/color_schemes/paln.scss` (azul institucional: fundo `#f7fafc`, sidebar `#edf3fa`, links/títulos `#1b4f8a`, texto `#25313d`), ativada com `color_scheme: paln` no `_config.yml`.
+- **Separação estrita por tipo de customização** (não misturar):
+  - `_sass/color_schemes/paln.scss` — **apenas variáveis SCSS** (`$...` de cor), ativadas com `color_scheme: paln` no `_config.yml`.
+  - `_sass/custom/custom.scss` — **estilos CSS de layout e componentes** (logo, header, margens). O tema importa este ficheiro automaticamente.
+  - `_includes/head_custom.html` — **fontes e CSS carregado no `<head>`** (Google Fonts).
+- **Paleta**: azul institucional em `paln.scss` (fundo `#f7fafc`, sidebar `#edf3fa`, links/títulos `#1b4f8a`, texto `#25313d`). Atenção ao significado das variáveis: `$search-result-preview-color` é a cor do **texto** de pré-visualização na pesquisa (usar tom escuro, não fundo claro — já causou texto invisível).
 - **Fonte**: **Work Sans** (Google Fonts) para todo o site, carregada em `_includes/head_custom.html`. Não usar fontes serifadas nem alterar tamanhos sem pedido.
-- **Logo na sidebar**: via `logo:` no `_config.yml` (caminho relativo à raiz do repo, sem prefixar o baseurl — o tema acrescenta-o). A altura é controlada em `.site-logo`/`.site-header` no scheme (96px).
+- **Logo na sidebar**: via `logo:` no `_config.yml` (caminho **relativo à raiz do repo, sem prefixar o baseurl** — o tema acrescenta-o; prefixar causou URL duplicado e logo invisível). Tamanho controlado em `_sass/custom/custom.scss` (atualmente 10rem; o tema limita a ~36px por defeito).
 - **Estrutura do menu**: páginas índice com `has_children: true` e `has_toc: false`; o Regulamento liga diretamente ao documento (sem página intermédia). Os nomes de ficheiros das páginas têm de se manter (ex.: `regulamento.md`).
-- **Como alterar estilo com segurança**: usar o mecanismo do tema (color scheme SCSS ou includes como `head_custom.html`); evitar CSS externo sobreposto — já causou conflitos. Atenção à cascata: o `remote_theme` injeta as regras do tema DEPOIS das personalizadas, pelo que overrides em classes do tema (ex.: `.site-nav .nav-list-item`) precisam de especificidade superior E `!important` (padrão verificado: `.site-nav .nav-list .nav-list-item.external { ... !important }`).
+- **Como alterar estilo com segurança**: usar os mecanismos acima; evitar CSS externo sobreposto — já causou conflitos. Atenção à cascata: o `remote_theme` injeta as regras do tema DEPOIS das personalizadas, pelo que overrides em classes do tema precisam de especificidade superior E `!important` (padrão verificado: `.site-nav .nav-list .nav-list-item.external { ... !important }` — uma regra `.nav-list-item.external` simples é anulada pelo tema).
 - **Validar sempre**: após alterações de estilo, confirmar no CSS compilado (`assets/css/just-the-docs-default.css` publicado) que as regras foram aplicadas — e fazer hard refresh no browser (Cmd+Shift+R) para evitar cache.
+- **Alterações só ficam visíveis após build**: cada push dispara o build do Pages (~1–2 min). Não é instantâneo; confirmar em Settings → Pages → Builds (ou via `gh api repos/.../pages/builds`).
 
 ### Convenção de nomes de eventos
 
