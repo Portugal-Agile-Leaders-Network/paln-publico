@@ -1,4 +1,5 @@
 // Paleta PALN — azul institucional
+// (apenas variáveis SCSS; estilos CSS de layout em _sass/custom/custom.scss)
 $body-background-color: #f7fafc;
 $sidebar-color: #edf3fa;
 $border-color: #d5e0ec;
@@ -9,27 +10,3 @@ $link-color: #1b4f8a;
 $btn-primary-color: #1b4f8a;
 $base-button-color: #2e7cc4;
 $search-result-preview-color: #5f6b78;
-
-// Logo maior no topo da sidebar (tema limita a ~36px de altura)
-.site-header {
-  height: auto !important;
-  max-height: none !important;
-  min-height: 10rem;
-}
-
-.site-title {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.site-logo {
-  height: 10rem !important;
-  background-position: center;
-}
-
-// Link externo do GitHub: deslocado para baixo dentro do menu
-// (especificidade > regra do tema ".nav-list .nav-list-item" + !important,
-//  pois o remote_theme injeta as regras do tema DEPOIS das personalizadas)
-.site-nav .nav-list .nav-list-item.external {
-  margin-top: 5rem !important;
-}
