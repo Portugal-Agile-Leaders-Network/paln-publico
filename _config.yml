@@ -16,6 +16,20 @@ logo: imagens/logo-200.jpg
 # Paleta personalizada PALN
 color_scheme: paln
 
+# Pesquisa: botão visível no topo da página
+search_enabled: true
+search:
+  button: true
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+
+# Link para o repositório GitHub no menu
+nav_external_links:
+  - title: paln-publico no GitHub
+    url: https://github.com/Portugal-Agile-Leaders-Network/paln-publico
+    hide_icon: false
+
 collections:
   regulamento:
     output: true
