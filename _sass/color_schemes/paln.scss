@@ -26,3 +26,8 @@ $search-result-preview-color: #5f6b78;
   height: 6rem !important;
   background-position: center;
 }
+
+// Link externo do GitHub: deslocado para baixo dentro do menu
+.nav-list-item.external {
+  margin-top: 1.25rem;
+}
