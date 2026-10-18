@@ -30,7 +30,7 @@ Os membros são **indivíduos, convidados a título pessoal**, pessoas com respo
 
 ## Participar
 
-A adesão é por convite, aprovada por consenso das empresas-membro, e pressupõe uma transformação ágil em curso ou planeada com patrocínio executivo. Se a sua organização quiser conhecer a comunidade, contacte qualquer membro ou facilitador.
+A adesão é por convite, dirigido à pessoa, proposto por um membro e aprovado por consenso dos membros. Se quer conhecer a comunidade, contacte qualquer membro ou facilitador.
 
 ---
 *© Portugal Agile Leaders Network — licenciado sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt).*
