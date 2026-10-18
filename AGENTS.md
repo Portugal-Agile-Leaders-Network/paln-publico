@@ -61,8 +61,8 @@ O site do repositório público usa o tema **Just the Docs** via `remote_theme`.
 - **Fonte**: **Work Sans** (Google Fonts) para todo o site, carregada em `_includes/head_custom.html`. Não usar fontes serifadas nem alterar tamanhos sem pedido.
 - **Logo na sidebar**: via `logo:` no `_config.yml` (caminho relativo à raiz do repo, sem prefixar o baseurl — o tema acrescenta-o). A altura é controlada em `.site-logo`/`.site-header` no scheme (96px).
 - **Estrutura do menu**: páginas índice com `has_children: true` e `has_toc: false`; o Regulamento liga diretamente ao documento (sem página intermédia). Os nomes de ficheiros das páginas têm de se manter (ex.: `regulamento.md`).
-- **Como alterar estilo com segurança**: usar o mecanismo do tema (color scheme SCSS ou includes como `head_custom.html`); evitar CSS externo sobreposto — já causou conflitos. Se gerar CSS, usar `!important` quando sobrepor regras do tema (o `remote_theme` injeta as regras do tema depois das personalizadas).
-- **Validar sempre**: após alterações de estilo, confirmar no CSS compilado (`assets/css/just-the-docs-default.css` publicado) que as regras foram aplicadas.
+- **Como alterar estilo com segurança**: usar o mecanismo do tema (color scheme SCSS ou includes como `head_custom.html`); evitar CSS externo sobreposto — já causou conflitos. Atenção à cascata: o `remote_theme` injeta as regras do tema DEPOIS das personalizadas, pelo que overrides em classes do tema (ex.: `.site-nav .nav-list-item`) precisam de especificidade superior E `!important` (padrão verificado: `.site-nav .nav-list .nav-list-item.external { ... !important }`).
+- **Validar sempre**: após alterações de estilo, confirmar no CSS compilado (`assets/css/just-the-docs-default.css` publicado) que as regras foram aplicadas — e fazer hard refresh no browser (Cmd+Shift+R) para evitar cache.
 
 ### Convenção de nomes de eventos
 
